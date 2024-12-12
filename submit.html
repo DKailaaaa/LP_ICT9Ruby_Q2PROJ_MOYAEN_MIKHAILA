@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Submission Bin</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";; rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>;
+
+<style>
+body {
+		background-color: #ffc8dd
+	}
+
+	h3{
+      text-align: center;
+  	}
+
+  	h4{
+  		text-align: left;
+  	}
+
+  	h5 {
+  		text-align: right;
+  	}
+
+
+	.container {
+		border: 1px solid;
+	}
+</style>
+</head>
+
+<body>
+
+	 <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+   <!-- Brand/Logo -->
+   <div class="container-fluid">
+   <a class="navbar-brand" href="#"><img src="Kaila.jpg" alt="logo" width="50px" height="50px" class="rounded-circle"></a>
+
+
+   <!-- Add links -->
+   <div class="collapse navbar-collapse">
+
+   <!-- me-auto adjust pushes the search bar to the right -->
+   <ul class="navbar-nav me-auto">
+   <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+   <li class="nav-item"> <a class="nav-link" href="about us.html">About Us</a> </li>
+   <li class="nav-item"> <a class="nav-link" href="recipe.html">Recipe</a> </li>
+   <li class="nav-item"> <a class="nav-link" href="submit.html">Submit Recipe</a></li>
+   </ul>
+   </nav>
+
+<br>
+<br>
+<br>
+<br>
+
+
+ <form>
+ <div class="row">
+ <h3 style="color:#e29578 ; font-family: serif;">Recipe Submission Bin</h3>
+ 
+ <div class="container mt-5 p-5">
+
+
+<div class="col">
+	<label style="color: #e29578;"> Name </label>
+	<input type="name" class="form-control" id="user" placeholder="type here">
+</div>
+
+
+<div class="col">
+	<label style="color: #e29578;"> Phone Number </label>
+	<input type="phone number" class="form-control" id="number" placeholder="type here">
+</div>
+
+<br>
+<br>
+<br>
+
+
+<div class="form-check">
+	<h4 style="color: #6d2e46;"> Food Cuisine </h4>
+	<label class="form-check-label" style="color: black;">
+	<input type="checkbox" class="form-check-input" value="">Filipino
+	</label>
+</div>
+
+<div class="form-check">
+	<label class="form-check-label" style="color: black;">
+	<input type="checkbox" class="form-check-input" value="">Japanese
+	</label>
+</div>
+
+<div class="form-check">
+	<label class="form-check-label" style="color: black;">
+	<input type="checkbox" class="form-check-input" value="">Korean
+	</label>
+</div>
+
+<div class="form-check">
+	<label class="form-check-label" style="color: black;">
+	<input type="checkbox" class="form-check-input" value="">Others
+	</label>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="form-group">
+	<h4 style="color: #6d2e46;">Preffered Course Meal</h4>
+	<label for="sell"><label>
+	<select class="form-control" id="sell">
+	<option>Dessert</option>
+	<option>Appetizer</option>
+	<option>Salad</option>
+	<option>Breakfast</option>
+	<option>Lunch</option>
+	<option>Dinner</option>
+	<option>Others</option>
+  </select>
+</div>
+
+<br>
+<br>
+
+<label style="color: #6d2e46; font-family: serif;">If you were to pick one recipe from our website, from what country and what dish will you choose? Explain why.</label>
+<textarea class="form-control" rows="5" id="comment" placeholder="type here"></textarea>
+
+<br>
+<br>
+
+<button type="button" class="btn btn-primary">Submit</button>
+
+
+
+
+
+</div>
+
+</body>
+</html>
